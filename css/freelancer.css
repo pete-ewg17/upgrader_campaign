@@ -40,14 +40,20 @@ header {
   color: white;
   height: auto;
   background: url("../assets/bg.png");
-   padding: 0 !important;
+  padding: 0 !important;
   margin: 0 auto !important;
-  background-size: 100% auto;
+  background-size: 100% 100%;
   overflow: hidden;
 }
+
 header .container {
-  padding-top: 100px;
-  padding-bottom: 50px;
+  padding-top: 80px;
+  /*padding-bottom: 10px;*/
+}
+
+
+.intro-text {
+  padding-bottom: 6em;
 }
 
 header .intro-text .name {
