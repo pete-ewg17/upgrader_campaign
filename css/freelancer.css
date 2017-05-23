@@ -28,7 +28,7 @@ h5,
 h6 {
   font-family: 'PT Sans', sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 300;
 }
 
 .img-centered {
@@ -38,7 +38,12 @@ header {
   position: relative;
   background: #228ae6;
   color: white;
-  height: 200vh;
+  height: auto;
+  background: url("../assets/bg.png");
+   padding: 0 !important;
+  margin: 0 auto !important;
+  background-size: 100% auto;
+  overflow: hidden;
 }
 header .container {
   padding-top: 100px;
@@ -59,7 +64,7 @@ header .intro-text .skills {
 @media (min-width: 768px) {
   header .container {
     padding-top: 8em;
-    padding-bottom: 10em;
+    padding-bottom: 8em;
   }
   header .intro-text .name {
     font-size: 4.75em;
@@ -91,21 +96,24 @@ header .intro-text .skills {
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
     
-
+.cta {
+  padding-top: 5em;
+  
+}
 
 
 
 
 
 .navbar-custom {
-  background: #e4e4e4;
+  background: #fff;
   font-family: 'PT Sans', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   border: none;
 }
 .navbar-custom .navbar-brand {
-  color: #555;
+  color: #0082c2;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
