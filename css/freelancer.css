@@ -77,9 +77,7 @@ header .intro-text .skills {
 
 /*THUMB ICONS */
 
-.upgrader-icons{
-
- 
+.upgrader-icons{ 
 }
 
 .hover-background {
@@ -180,10 +178,49 @@ section h2 {
   margin: 0;
   font-size: 3em;
 }
-.success {
-  background: ;
+.testimonial {
+  background: url("../assets/test-bg.jpg") no-repeat no-repeat center;
+  background-size: cover;
   color: #555;
 }
+
+.test-heading {
+  padding-bottom: 2em;
+}
+
+.test-heading h5 {
+  color: #fff;
+}
+
+.test-heading h2 {
+  color: #000;
+}
+
+.carousel-inner {
+    height: 200px;
+}
+
+.carousel-inner p, small{
+  color: #fff;
+}
+
+.carousel-indicators {
+  bottom: -79px;
+}
+
+@media (max-width: 767px) {
+  .carousel-inner {
+    height: 230px;
+  }
+  
+  .carousel-inner p{
+    font-size: 16px;
+    color: #fff;
+    
+  }
+}
+
+
 @media (max-width: 767px) {
   section {
     padding: 75px 0;
@@ -409,65 +446,7 @@ fieldset[disabled] .btn-success.active {
   border-radius: 100%;
   line-height: 28px;
 }
-.portfolio-modal .modal-content {
-  border-radius: 0;
-  background-clip: border-box;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  border: none;
-  min-height: 100%;
-  padding: 100px 0;
-  text-align: center;
-}
-.portfolio-modal .modal-content h2 {
-  margin: 0;
-  font-size: 3em;
-}
-.portfolio-modal .modal-content img {
-  margin-bottom: 30px;
-}
-.portfolio-modal .modal-content .item-details {
-  margin: 30px 0;
-}
-.portfolio-modal .close-modal {
-  position: absolute;
-  width: 75px;
-  height: 75px;
-  background-color: transparent;
-  top: 25px;
-  right: 25px;
-  cursor: pointer;
-}
-.portfolio-modal .close-modal:hover {
-  opacity: 0.3;
-}
-.portfolio-modal .close-modal .lr {
-  height: 75px;
-  width: 1px;
-  margin-left: 35px;
-  background-color: #2C3E50;
-  transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  /* IE 9 */
-  -webkit-transform: rotate(45deg);
-  /* Safari and Chrome */
-  z-index: 1051;
-}
-.portfolio-modal .close-modal .lr .rl {
-  height: 75px;
-  width: 1px;
-  background-color: #2C3E50;
-  transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  /* IE 9 */
-  -webkit-transform: rotate(90deg);
-  /* Safari and Chrome */
-  z-index: 1052;
-}
-.portfolio-modal .modal-backdrop {
-  opacity: 0;
-  display: none;
-}
+
 #skipnav a {
   padding: 6px;
   position: absolute;
