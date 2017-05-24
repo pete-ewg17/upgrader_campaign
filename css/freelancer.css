@@ -40,10 +40,20 @@ header {
   color: white;
   height: auto;
   background: url("../assets/bg.png");
-  padding: 0 !important;
+  padding-bottom: 6em;
   margin: 0 auto !important;
   background-size: 100% 100%;
   overflow: hidden;
+}
+
+header img {
+  padding-bottom: 2em;
+}
+
+header .upgrader-icons a {
+  text-decoration: none;
+  color: lightgoldenrodyellow;
+  
 }
 
 header .container {
@@ -114,7 +124,7 @@ header .intro-text .skills {
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
-  color: white;
+  color: #888;
 }
 .navbar-custom .navbar-nav {
   letter-spacing: 1px;
@@ -228,6 +238,73 @@ section h2 {
   section.first {
     padding-top: 75px;
   }
+}
+
+
+/* CONTACT */
+.shadow {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+
+/* APP DOWNLOAD */
+
+section.download {
+  background-color: #f9f4f1;
+  background-size: 100% auto;
+  width: 100%;
+  height: 100%;
+}
+
+section.download {
+    padding: 17px 0 17px 0;
+    position: relative;
+    margin-bottom: 0;
+}
+section.download h2 {
+  margin-top: 0;
+  font-size: 50px;
+  color: #555;
+}
+
+section.download p {
+  color: #555;
+  padding-top: 2em;
+  margin-bottom: 0;
+} 
+
+section.download .badges .badge-link {
+  display: block;
+  margin: 25px 0;
+}
+section.download .badges .badge-link:last-child {
+  margin-bottom: 2em
+}
+section.download .badges .badge-link img {
+  height: 60px;
+}
+
+@media (min-width: 768px) {
+  
+  section.download {
+     padding: 17px 0 0 0;
+  }
+  
+  
+  section.download .badges .badge-link {
+    display: inline-block;
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 768px) {
+  
+  .download {
+    padding:0;
+  }
+  section.download h2 {
+    font-size: 70px;
+  }
+ 
 }
 
 #portfolio {
