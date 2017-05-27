@@ -31,6 +31,12 @@ h6 {
   font-weight: 300;
 }
 
+
+ul li {
+  text-decoration: none;
+}
+
+
 .img-centered {
   margin: 0 auto;
 }
@@ -40,7 +46,7 @@ header {
   color: white;
   height: auto;
   background: url("../assets/bg.png");
-  padding-bottom: 6em;
+  padding-bottom: 10em;
   margin: 0 auto !important;
   background-size: 100% 100%;
   overflow: hidden;
@@ -52,8 +58,7 @@ header img {
 
 header .upgrader-icons a {
   text-decoration: none;
-  color: lightgoldenrodyellow;
-  
+  color: lightgoldenrodyellow;  
 }
 
 header .container {
@@ -74,8 +79,9 @@ header .intro-text .skills {
 }
 @media (min-width: 768px) {
   .intro-text {
+    padding-top: 2em;    
     padding-bottom: 6em;
-    padding-top: 6em;
+    
   }
   header .intro-text .name {
     font-size: 4.75em;
@@ -83,6 +89,12 @@ header .intro-text .skills {
   header .intro-text .skills {
     font-size: 1.75em;
   }
+  
+  .cta {
+  padding: 2em 0 5em 0;
+  
+}
+  
 }
 
 /*THUMB ICONS */
@@ -106,7 +118,7 @@ header .intro-text .skills {
 }
     
 .cta {
-  padding-top: 5em;
+  padding-top: em;
   
 }
 
@@ -181,9 +193,11 @@ header .intro-text .skills {
     font-size: 1.5em;
   }
 }
+
 section {
   padding: 100px 0;
 }
+
 section h2 {
   margin: 0;
   font-size: 3em;
@@ -249,6 +263,7 @@ section h2 {
 
 /* APP DOWNLOAD */
 
+
 section.download {
   background-color: #f9f4f1;
   background-size: 100% auto;
@@ -295,7 +310,18 @@ section.download .badges .badge-link img {
     display: inline-block;
     margin-bottom: 0;
   }
+  
+  .dl-wrapper {
+  padding-top: 10em;
+  
 }
+
+/*@media (max-width: 480px) {
+  .dl-wrapper {
+  padding-top: 5em;
+}
+}*/
+
 @media (min-width: 768px) {
   
   .download {
