@@ -1,4 +1,12 @@
-// Freelancer Theme JavaScript
+// When the DOM is ready, run this function
+$(document).ready(function() {
+  //Set the carousel options
+  $('#quote-carousel').carousel({
+    pauseOnHover: true,
+    interval: 3000,
+  });
+
+});
 
 (function($) {
     "use strict"; // Start of use strict
@@ -44,15 +52,14 @@
 })(jQuery); // End of use strict
 
 
-// When the DOM is ready, run this function
+// Add counter
 $(document).ready(function() {
-  //Set the carousel options
-  $('#quote-carousel').carousel({
-    pauseOnHover: true,
-    interval: 3000,
-  });
+    
+    $('.counter-num').counterUp({
+        delay: 5,
+        time: 2000
     });
-
+});
 
 
 
