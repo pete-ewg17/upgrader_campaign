@@ -504,9 +504,6 @@ footer .footer-below {
   padding: 0;
 }
 
-
-
-
 /*=================
   FACT-SHEET STYLES 
 =================*/
@@ -520,6 +517,39 @@ footer .footer-below {
   color: #fff;
   font-size: 3.1em;
 }
+
+/*=================
+  ABOUT STYLES  
+=================*/
+
+.help {
+  
+  color: #555;
+}
+
+.help ul li {
+  list-style: none;
+  font-size: 2em;
+  color: #0082c2;
+  margin: 1.2em 0;
+  padding: 0;
+}
+
+.call-line p {
+  font-size: 2.2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*===========
   BTN STYLES 
@@ -691,3 +721,29 @@ fieldset[disabled] .btn-success.active {
 div#maincontent {
   outline: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
