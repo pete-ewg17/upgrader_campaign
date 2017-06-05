@@ -94,6 +94,7 @@ header .intro-text .skills {
 /*THUMB ICONS */
 
 .upgrader-icons p {
+	text-align: center;
   padding: 0 4em;
   position: absolute;
   top: 40%;
@@ -102,19 +103,34 @@ header .intro-text .skills {
   right: 0;
 }
 
-.hover-background {
-  text-align: center;
-  border-radius: 0.25em;
-  margin: 2em;
+.u-i {
+		font-size: 12rem;
+    text-align: center;
+    color: #226dad;
 }
 
-.hover-background img {
-  margin: auto;
-}
-
-.hover-background:hover {
+.back-color {
   background: #034d71;
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+	border: 3px solid #2C3E50;
+    /*width: 70%;
+    height: 80%;*/
+    margin: auto;
+    padding: 2em 0;
+    border-radius: 3px;
+		-webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+
+.back-color:hover {
+  background: rgba(44, 62, 80, 0.72);
+	-webkit-transform: scale(1.2);
+	        transform: scale(1.1);
+  
+}
+
+.mg-4 {
+	margin: 2em 0em;
 }
 
 .navbar-custom {
@@ -150,7 +166,7 @@ header .intro-text .skills {
 
 .navbar-custom .navbar-nav li a:focus,
 .navbar-custom .navbar-nav li a:active {
-  color: white;
+  color: #555;
 }
 
 .navbar-custom .navbar-nav li.active a {
@@ -183,13 +199,11 @@ header .intro-text .skills {
   .navbar-custom {
     padding: 5px 0;
     -webkit-transition: padding 0.3s;
-    -moz-transition: padding 0.3s;
     transition: padding 0.3s;
   }
   .navbar-custom .navbar-brand {
     font-size: 2em;
     -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
     transition: all 0.3s;
   }
   .navbar-custom.affix {
@@ -237,12 +251,12 @@ section h2 {
 
 .success span:last-of-type {
 
-font-size: 3em; 
+font-size: 2em; 
   color: #0082c2;
 }
 
 .testimonial {
-  background: url("../assets/test-bg.jpg") no-repeat no-repeat center;
+  background: orange;
   background-size: cover;
   color: #555;
 }
@@ -300,7 +314,8 @@ small {
 /* CONTACT */
 
 .shadow {
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
 /* APP DOWNLOAD */
@@ -412,7 +427,8 @@ footer.footer-above {
   border-radius: 0;
   font-size: 1.5em;
   background: none;
-  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
   resize: none;
 }
 
@@ -428,8 +444,6 @@ footer.footer-above {
   vertical-align: baseline;
   opacity: 0;
   -webkit-transition: top 0.3s ease, opacity 0.3s ease;
-  -moz-transition: top 0.3s ease, opacity 0.3s ease;
-  -ms-transition: top 0.3s ease, opacity 0.3s ease;
   transition: top 0.3s ease, opacity 0.3s ease;
 }
 
@@ -560,6 +574,7 @@ footer .footer-below {
   font-size: 20px;
   border: solid 2px white;
   background: transparent;
+  -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   margin-top: 15px;
 }
@@ -633,8 +648,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-success.active,
 .open .dropdown-toggle.btn-success {
   color: white;
-  background-color: #128f76;
-  border-color: #11866f;
+  /*background-color: #128f76;
+  border-color: #11866f;*/
 }
 
 .btn-success:active,
@@ -705,6 +720,7 @@ fieldset[disabled] .btn-success.active {
   border-bottom: 1px solid white;
   border-bottom-right-radius: 8px;
   background: transparent;
+  -webkit-transition: top 1s ease-out, background 1s linear;
   transition: top 1s ease-out, background 1s linear;
   z-index: 2000;
 }
@@ -715,6 +731,7 @@ fieldset[disabled] .btn-success.active {
   top: 0px;
   background: #18BC9C;
   outline: 0;
+  -webkit-transition: top 0.1s ease-in, background 0.5s linear;
   transition: top 0.1s ease-in, background 0.5s linear;
 }
 
