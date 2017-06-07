@@ -107,16 +107,7 @@ $(document).ready(function() {
 
 });
 
-if ( $(window).width() > 769) {
-$('.counter-num')
-        function () {
-            $(this).next('span').show();
-        },
-        function () {
-            $(this).next('span').hide();
-        }
-    );
-}
+
 
 
 

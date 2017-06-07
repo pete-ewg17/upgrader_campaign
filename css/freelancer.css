@@ -755,7 +755,9 @@ div#maincontent {
 
 
 
-
+.hidden {
+  visibility: hidden;
+}
 
 
 
