@@ -47,8 +47,8 @@ $(document).ready(function() {
 $(document).ready(function() {
     
     $('.counter-num').counterUp({
-        delay: 5,
-        time: 2000
+        delay: 0,
+        time: 1000
     });
 });
 
@@ -106,8 +106,6 @@ $(document).ready(function() {
   });
 
 });
-
-
 
 
 
