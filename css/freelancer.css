@@ -53,6 +53,23 @@ header {
   overflow: hidden;
 }
 
+.logo {
+  width: 100%;
+  height: auto;
+}
+
+.logo-img {
+  width: 80%;
+    position: relative;
+    top: 5px;
+    left: 15px;
+}
+
+.navbar-brand {
+  padding: 0;
+}
+
+
 header .upgrader-icons a {
   text-decoration: none;
   color: lightgoldenrodyellow;
@@ -135,9 +152,6 @@ header .intro-text .skills {
 		-webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
-
-
-
 
 .back-color:hover {
   background: rgba(44, 62, 80, 0.72);
@@ -767,25 +781,4 @@ div#maincontent {
 .hidden {
   visibility: hidden;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
