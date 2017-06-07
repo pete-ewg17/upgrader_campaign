@@ -264,8 +264,7 @@ section h2 {
 }
 
 .success span:last-of-type {
-
-font-size: 2em; 
+  font-size: 1.6em; 
   color: #0082c2;
 }
 
@@ -309,7 +308,14 @@ small {
     color: #fff;
   }
   
+  .success p {
+  font-size: 1.2em;
+}
+
+.success span:last-of-type {
+  font-size: 1.4em; 
   
+}
 }
 
 @media (max-width: 767px) {
@@ -322,7 +328,7 @@ small {
 }
 
 .cta {
-      padding: 5em 0;
+      padding: 2em 0;
 }
 
 /* CONTACT */
@@ -551,8 +557,11 @@ footer .footer-below {
 =================*/
 
 .help {
-  
   color: #555;
+}
+
+#about h2 {
+  color: #0082c2;
 }
 
 .help ul li {
