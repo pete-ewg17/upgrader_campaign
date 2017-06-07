@@ -62,6 +62,11 @@ header .container {
   padding-top: 80px;
 }
 
+.container .cta-header {
+  padding-top: 0px;
+}
+
+
 header .intro-text .name {
   display: block;
   font-family: 'PT Sans', sans-serif;
@@ -94,7 +99,8 @@ header .intro-text .skills {
 /*THUMB ICONS */
 
 .upgrader-icons p {
-	text-align: center;
+  font-size: 1.4em;
+  text-align: center;
   padding: 0 4em;
   position: absolute;
   top: 40%;
@@ -103,17 +109,26 @@ header .intro-text .skills {
   right: 0;
 }
 
+.l-m {
+  text-align: center;
+    padding: 0 4em;
+    position: absolute;
+    top: 70%;
+    bottom: 100px;
+    left: 0;
+    right: 0;
+    color: #fff;
+    font-weight: 700;
+}
+
 .u-i {
-		font-size: 12rem;
+    font-size: 12rem;
     text-align: center;
     color: #226dad;
 }
 
 .back-color {
   background: #034d71;
-	border: 3px solid #2C3E50;
-    /*width: 70%;
-    height: 80%;*/
     margin: auto;
     padding: 2em 0;
     border-radius: 3px;
@@ -122,11 +137,10 @@ header .intro-text .skills {
 }
 
 
+
+
 .back-color:hover {
   background: rgba(44, 62, 80, 0.72);
-	-webkit-transform: scale(1.2);
-	        transform: scale(1.1);
-  
 }
 
 .mg-4 {
