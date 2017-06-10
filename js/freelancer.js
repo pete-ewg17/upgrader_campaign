@@ -47,7 +47,11 @@
 
     
     $('.counter-num').counterUp({
+<<<<<<< Updated upstream
         delay: 2,
+=======
+        delay: 0,
+>>>>>>> Stashed changes
         time: 100
     });
 
