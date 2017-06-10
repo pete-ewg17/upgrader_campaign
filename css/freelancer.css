@@ -54,13 +54,13 @@ header {
 }
 
 
-.logo {
+/*.logo {
 	position: relative;
-    top: 10px;
+    top: 0px;
     left: 0;
     bottom: 0;
     right: 0;
-}
+}*/
 
 
 header .upgrader-icons a {
@@ -88,6 +88,17 @@ header .intro-text .skills {
   font-weight: 300;
 }
 
+@media (max-width: 768px){
+  .logo {
+    width: 60%;
+    position: relative;
+    top: 6px;
+    left: 10px;
+  }
+}
+
+
+
 @media (min-width: 768px) {
   .intro-text {
     padding-top: 2em;
@@ -102,6 +113,10 @@ header .intro-text .skills {
   .cta {
     padding: 5em 0;
   }
+  .logo {
+    background-image: url(../assets/logo-mobile.png) no-repeat center;
+  }
+  
 }
 
 
@@ -217,7 +232,7 @@ header .intro-text .skills {
 
 @media (min-width: 768px) {
   .navbar-custom {
-    padding: 5px 0;
+    padding: 15px 0;
     -webkit-transition: padding 0.3s;
     transition: padding 0.3s;
   }
